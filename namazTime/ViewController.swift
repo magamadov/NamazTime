@@ -56,6 +56,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         case asr
         case magrib
         case isha
+        case empty
     }
     
     func setBorderNamaz(type: NamazType) {
